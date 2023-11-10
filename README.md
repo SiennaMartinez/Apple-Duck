@@ -38,3 +38,6 @@ Minimal Viable Outcome:
 - Week N (Final)
   1. make green particle end game, and 5 red particles end game.
   2. add win and lose screen
+
+-Extra
+replace red particle with apple drawing, replace green particle with vegetable drawing
