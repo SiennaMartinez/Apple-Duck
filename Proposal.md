@@ -6,17 +6,17 @@ https://github.com/SiennaMartinez/Apple-Duck.git
 Duck is hungry and needs to eat all the apples. But Duck hates vegetables, so avoid the spinach!
 
 ## Features
-- art of a duck 
-	- use pygame.draw
+- game art 
+	- make and import assets for game
 - duck moves to where player clicks
 	- use mousebutton
-- green and red squares spawn on ground level, green particle ends the game in lose, 5 red particles ends game in win
-	- use pygame particles
+- apple and carrot  move across sky, player must jump to catch them. Any carrot ends the game in lose, 5 apples ends game in win
+	- use assets, make them move across screen, make game timed. 60 seconds
 
 ## Challenges
-- figure out how to use pygame.draw, draw a duck
+- figure out how to make assets move
 - make duck follow player clicks, figure out mousebutton
-- spawn only 5 red particles, 5 green particles. make green particles end game, end game after 5 red particles make particles dissapear when duck makes contact with particle. 
+- spawn only 5 apples, 5 carrots. make green particles end game, end game after 5 red particles make particles dissapear when duck makes contact with particle. 
 
 ## Outcomes
 Ideal Outcome:
