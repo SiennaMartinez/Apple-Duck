@@ -3,27 +3,27 @@
 https://github.com/SiennaMartinez/Apple-Duck.git
 
 ## Description
-Duck is hungry and needs to eat all the apples. But Duck hates vegetables, so avoid the spinach!
+Duck is hungry and needs to eat all the apples. But Duck hates vegetables, so avoid the carrots!
 
 ## Features
-- art of a duck 
-	- use pygame.draw
+- game art 
+	- make and import assets for game
 - duck moves to where player clicks
 	- use mousebutton
-- green and red squares spawn on ground level, green particle ends the game in lose, 5 red particles ends game in win
-	- use pygame particles
+- apple and carrot  move across sky, player must jump to catch them. Any carrot ends the game in lose, 5 apples ends game in win
+	- use assets, make them move across screen, make game timed. 60 seconds
 
 ## Challenges
-- figure out how to use pygame.draw, draw a duck
+- figure out how to make assets move
 - make duck follow player clicks, figure out mousebutton
-- spawn only 5 red particles, 5 green particles. make green particles end game, end game after 5 red particles make particles dissapear when duck makes contact with particle. 
+- spawn only 5 apples, 5 carrots. make carrots end game, end game after 5 apples make particles dissapear when duck makes contact with assets. 
 
 ## Outcomes
 Ideal Outcome:
-- game runs with duck moving where player clicks, particles vanish on contact with duck, green particle ends game instantly, red particle wins game after 5 are collected
+- game runs with duck moving where player clicks, assets vanish on contact with duck, carrot ends game instantly, apple wins game after 5 are collected
 
 Minimal Viable Outcome:
-- duck moves where player clicks, game ends when player makes contact with green particle
+- duck moves where player clicks, game ends when player makes contact with carrot
 
 ## Milestones
 
@@ -32,11 +32,11 @@ Minimal Viable Outcome:
   2. make duck move where player clicks
 
 - Week 2
-  1. 5 red and 5 green particles spawn slowly
-  2. make particles dissapear on contact with duck
+  1. 5 apple and 5 carrot spawn slowly moving across screen
+  2. make assets disappear on contact with duck
 
 - Week N (Final)
-  1. make green particle end game, and 5 red particles end game.
+  1. make carrot end game, and 5 apples end game.
   2. add win and lose screen
 
 -Extra
